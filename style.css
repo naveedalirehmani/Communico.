@@ -1,0 +1,91 @@
+html {
+    scroll-behavior: smooth;
+}
+body{
+    margin: 0px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 800;
+    font-size: 2.5rem;
+    color: #202020;
+}
+.main-wrapper{
+    /* border:2px solid black; */
+    width: 100vh;
+    height: 100vw;
+    transform:rotate(-90deg) translateX(-100vh);
+    transform-origin:top left;
+    overflow-y:scroll;
+    overflow-x: hidden;
+    position: absolute;
+}
+.wrapper{
+    width: 180vw;
+    display: flex;
+    flex-direction:row;
+    transform:rotate(90deg) translateY(-100vh) ;
+    transform-origin:top left;
+}
+.section{
+    width: 100vw;
+    height: 100vh;
+}
+.one{
+    background-color: #202020;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0px 40px 40px 0px;
+    width: 110vw;
+}
+.two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding:0px 10rem 0px 10rem;
+}
+.three{
+    width:20vw;
+    background-color: #202020;
+    border-radius: 40px 0px 0px 40px;
+}
+
+::-webkit-scrollbar{
+    display: none;
+}
+.communicoLogo{
+    /* width: 900px; */
+}
+
+.tag-line{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.transparent{
+    background: url('./200.webp') 33% 66%;
+    -webkit-text-fill-color: transparent;
+    background-size:cover ;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.transparent:hover{
+    -webkit-text-fill-color: unset;
+    -webkit-background-clip: unset;
+    background-clip: unset;
+    color: transparent;
+}
+
+.discription{
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 0.8rem;
+    text-align: center;
+}
+
+button{
+    border: none;
+    background: none;
+}
