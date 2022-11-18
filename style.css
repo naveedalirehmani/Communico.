@@ -5,7 +5,7 @@ body{
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 800;
-    font-size: 2.5rem;
+    font-size: 4.5rem;
     color: #202020;
 }
 .main-wrapper{
@@ -35,7 +35,7 @@ body{
     justify-content: center;
     align-items: center;
     border-radius: 0px 40px 40px 0px;
-    width: 110vw;
+    width: 160vw;
 }
 .two{
     display: flex;
@@ -81,7 +81,7 @@ body{
 .discription{
     padding-top: 0.5rem;
     font-weight: 300;
-    font-size: 0.8rem;
+    font-size: 1.2rem;
     text-align: center;
 }
 
