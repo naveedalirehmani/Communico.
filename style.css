@@ -1,6 +1,3 @@
-html {
-    scroll-behavior: smooth;
-}
 body{
     margin: 0px;
     font-family: 'Open Sans', sans-serif;
@@ -19,25 +16,28 @@ body{
     position: absolute;
 }
 .wrapper{
-    width: 180vw;
+    width: 270vw;
     display: flex;
     flex-direction:row;
     transform:rotate(90deg) translateY(-100vh) ;
     transform-origin:top left;
+    scroll-behavior: smooth;
 }
 .section{
     width: 100vw;
     height: 100vh;
 }
+
 .one{
+    width:100vw;
     background-color: #202020;
     display: flex;
     justify-content: center;
     align-items: center;
     border-radius: 0px 40px 40px 0px;
-    width: 160vw;
 }
 .two{
+    width:70vw;
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -49,10 +49,22 @@ body{
     background-color: #202020;
     border-radius: 40px 0px 0px 40px;
 }
+.four{
+    width:70vw;
+    background-color: #202020;
+    color:white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10rem;
+
+}
 
 ::-webkit-scrollbar{
     display: none;
 }
+
 .communicoLogo{
     /* width: 900px; */
 }
@@ -71,7 +83,15 @@ body{
     background-clip: text;
 }
 
-.transparent:hover{
+.transparent-second{
+    background: url('./200-1.webp') 33% 66%;
+    -webkit-text-fill-color: transparent;
+    background-size:cover ;
+    -webkit-background-clip: text;
+    background-clip: text;
+}
+
+.transparent-second:hover,.transparent:hover{
     -webkit-text-fill-color: unset;
     -webkit-background-clip: unset;
     background-clip: unset;
@@ -79,13 +99,29 @@ body{
 }
 
 .discription{
-    padding-top: 0.5rem;
+    padding-top: 1rem;
     font-weight: 300;
     font-size: 1.2rem;
     text-align: center;
 }
 
+.discriptionDetails{
+    padding-top: 0.5rem;
+    font-weight: 300;
+    font-size: 1.2rem;
+    text-align: center;
+    
+}
+
 button{
     border: none;
     background: none;
+}
+
+.title{
+
+}
+
+.subtitle{
+
 }
